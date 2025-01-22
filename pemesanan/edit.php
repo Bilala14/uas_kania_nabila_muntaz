@@ -3,7 +3,7 @@
 include("../koneksi.php");
 
 #2. ambil id yang akan disunting
-$id_pemesanan = $_GET['id'];
+$id_pemesanan = $_GET['id_pemesanan'];
 
 #3. mengambil semua record data berdasarkan id yang dipilih
 $ambil = "SELECT * FROM tb_pemesanan WHERE id_pemesanan='$id_pemesanan'";
@@ -39,26 +39,22 @@ $data = mysqli_fetch_array($edit)
             </div>
             <div class="card-body">
             <form action="update.php" method="post">
-                <input type="hidden" name="id" value="<?=$data['id_pemesanan']?>">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Id Pemesanan</label>
-                    <input type="text" value="<?=$data['id_pemesanan']?>" name="id" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
+                <input type="hidden" name="id_pemesanan" value="<?=$data['id_pemesanan']?>">
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Tanggal Checkin</label>
-                    <input type="date" value="<?=$data['tanggal_checkin']?>" name="tanggal" class="form-control" id="exampleInputPassword1">
+                    <input type="date" value="<?=$data['tanggal_checkin']?>" name="tanggal_checkin" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Tanggal Checkout</label>
-                    <input type="date" name="tanggal" value="<?=$data['tanggal_checkout']?>" class="form-control" id="exampleInputPassword1">
+                    <input type="date" name="tanggal_checkout" value="<?=$data['tanggal_checkout']?>" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Id Tamu</label>
-                    <input type="text" name="tamu_id" value="<?=$data['tamu_id']?>" class="form-control" id="exampleInputPassword1">
+                    <input type="text" name="id" value="<?=$data['id']?>" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Bukti Pembayaran</label>
-                    <input type="text" name="bukti_pembayaran" value="<?=$data['bukti_pembayaran']?>" class="form-control" id="exampleInputPassword1">
+                    <input type="text" name="bukti_pemesanan" value="<?=$data['bukti_pemesanan']?>" class="form-control" id="exampleInputPassword1">
                 </div>
                 
                 <button type="submit" class="btn btn-primary">Update</button>

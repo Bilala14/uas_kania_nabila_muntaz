@@ -19,7 +19,7 @@
         <a class="nav-link active" aria-current="page" href="/uas_kania_nabila_muntaz/logout.php">Logout</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/uas_kania_nabila_muntaz/ubah-password.php">Ubah Password</a>
+          <a class="nav-link active" aria-current="page" href="/uas_kania_nabila_muntazk/ubah-password.php">Ubah Password</a>
         </li>
       </ul>
       </ul>
