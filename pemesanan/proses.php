@@ -3,7 +3,7 @@
 include("../koneksi.php");
 
 #2. mengambil value dari form
-$id_pemesanan = $_POST['id_pemesanan'];
+$id = $_POST['id'];
 $tanggal = $_POST['tanggal_checkin'];
 $tanggal = $_POST['tanggal_Checkout'];
 $tamu_id = $_POST['tamu_id'];

@@ -28,11 +28,11 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Tanggal Checkin</label>
-                    <input type="date" name="tanggal" class="form-control" id="exampleInputPassword1">
+                    <input type="date" name="tanggal_checkin" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Tanggal Checkin</label>
-                    <input type="date" name="tanggal" class="form-control" id="exampleInputPassword1">
+                    <input type="date" name="tanggal_checkout" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Id Tamu</label>

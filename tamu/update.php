@@ -10,7 +10,7 @@ $no_identitas = $_POST['no_identitas'];
 
 #3. menulis query
 $sunting = "UPDATE tb_tamu SET id_tamu='$id_tamu', nm_tamu='$nama_tamu', jabatan='$jabatan',
-email='$email', no_hp='$no_hp' WHERE id='$id'";
+email='$email', no_hp='$no_hp' WHERE id_tamu='$id_tamu'";
 
 #4. jalankan query
 $proses = mysqli_query($koneksi, $sunting);

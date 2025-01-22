@@ -42,7 +42,7 @@ $data = mysqli_fetch_array($edit)
                 <input type="hidden" name="id_tamu" value="<?=$data['id_tamu']?>">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Id Tamu</label>
-                    <input type="text" value="<?=$data['id_tamu']?>" name="id_tamu" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="text" value="<?=$data['id_tamu']?>" name="idtamu" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Nama Tamu</label>

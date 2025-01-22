@@ -18,7 +18,7 @@
             <div class="card">
             <div class="card-header">
                 <h3 class="float-start">Data Pemesanan</h3>
-                <span class="float-end"><a class="btn btn-primary" href="form.php"><i class="fa-solid fa-square-plus"></i> Tambah Data</a></span>
+                <span class="float-end"><a class="btn btn-primary" href="create.php"><i class="fa-solid fa-square-plus"></i> Tambah Data</a></span>
             </div>
             <div class="card-body">
             <table class="table table-striped">

@@ -39,7 +39,7 @@ $data = mysqli_fetch_array($edit)
             </div>
             <div class="card-body">
             <form action="update.php" method="post">
-                <input type="hidden" name="id_pemesanan" value="<?=$data['id_pemesanan']?>">
+                <input type="hidden" name="id" value="<?=$data['id_pemesanan']?>">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Id Pemesanan</label>
                     <input type="text" value="<?=$data['id_pemesanan']?>" name="id" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">

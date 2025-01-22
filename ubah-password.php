@@ -49,7 +49,7 @@ if(isset($_POST['tombol'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project IS62</title>
+    <title>Uas Kania Nabila Muntaz</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/all.css">
 </head>

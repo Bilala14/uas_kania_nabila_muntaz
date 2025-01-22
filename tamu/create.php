@@ -24,7 +24,7 @@
             <form action="proses.php" method="post">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Id Tamu</label>
-                    <input type="text" name="id_tamu" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="text" name="idtamu" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Nama Tamu</label>
